@@ -1,0 +1,245 @@
+Group A – High Performance Computing (HPC)
+Experiment 1: Parallel BFS & DFS using OpenMP
+Basic Questions
+What is High Performance Computing (HPC)?
+What is OpenMP?
+What is the difference between BFS and DFS?
+What data structure is used in BFS?
+What data structure is used in DFS?
+Why is graph traversal important?
+What is parallel computing?
+What is a thread in OpenMP?
+What is shared memory architecture?
+What is the purpose of #pragma omp parallel for?
+Program-Based Questions
+Why is queue used in BFS?
+Why recursion is used in DFS?
+What is adjacency list representation?
+What is race condition?
+What is speedup in parallel computing?
+How does OpenMP improve performance?
+What happens if graph contains cycles?
+What is synchronization in parallel programming?
+Difference between sequential and parallel BFS?
+What are limitations of OpenMP?
+
+Experiment 2: Parallel Bubble Sort & Merge Sort
+Questions
+What is sorting?
+Explain Bubble Sort.
+Explain Merge Sort.
+Which sorting algorithm is faster and why?
+What is divide and conquer approach?
+Time complexity of Bubble Sort?
+Time complexity of Merge Sort?
+Why Merge Sort is suitable for parallelization?
+What is stable sorting?
+Difference between sequential and parallel sorting?
+What is swapping?
+What is recursion in Merge Sort?
+Why OpenMP sections are used?
+What is load balancing?
+Compare Bubble Sort and Merge Sort.
+
+Experiment 3: Parallel Reduction (Min, Max, Sum, Average)
+Questions
+What is reduction operation?
+What is parallel reduction?
+Why reduction is useful in HPC?
+Explain reduction clause in OpenMP.
+How is minimum calculated in parallel?
+How is maximum calculated in parallel?
+Why average requires sum calculation first?
+What is numeric_limits<int>::max()?
+Difference between serial and parallel reduction?
+What is concurrency?
+What is scalability?
+Why OpenMP is used here?
+Applications of reduction operations?
+What is data parallelism?
+What are advantages of parallel reduction?
+
+Experiment 4: CUDA – Vector Addition & Matrix Multiplication
+Questions
+What is CUDA?
+Who developed CUDA?
+What is GPU computing?
+Difference between CPU and GPU?
+What is kernel function in CUDA?
+Meaning of __global__ keyword?
+What is thread in CUDA?
+What is block in CUDA?
+What is grid in CUDA?
+What is cudaMalloc()?
+What is cudaMemcpy()?
+Why GPU is faster for matrix operations?
+Explain vector addition using CUDA.
+Explain matrix multiplication using CUDA.
+What is thread indexing?
+What is device memory?
+What is host memory?
+What is parallel execution?
+Applications of CUDA?
+What is CUDA event timing?
+
+Experiment 5: HPC Application for AI/ML
+Questions
+What is AI?
+What is Machine Learning?
+Why HPC is useful in AI/ML?
+What is MNIST dataset?
+What is TensorFlow?
+What is Keras?
+What is neural network?
+What is epoch?
+What is batch size?
+What is activation function?
+Why ReLU is used?
+What is dropout layer?
+What is overfitting?
+What is optimizer?
+What is Adam optimizer?
+What is categorical crossentropy?
+What is normalization?
+What is one-hot encoding?
+Why GPUs are useful in deep learning?
+Applications of HPC in AI/ML?
+
+Experiment 6: Parallelization of Database Query Optimization
+Questions
+What is database query optimization?
+What is SQL query?
+Why optimization is needed?
+What is multiprocessing?
+What is query execution plan?
+What is parallel query optimization?
+What is process pool?
+Difference between process and thread?
+What is map() function in multiprocessing?
+Why sorting is done after optimization?
+What are joins in SQL?
+Types of SQL joins?
+What is INNER JOIN?
+What is LEFT JOIN?
+What is FULL OUTER JOIN?
+What is scalability in databases?
+Advantages of HPC in databases?
+What is query parsing?
+What is query execution?
+Applications of parallel databases?
+
+Group B – Deep Learning
+Experiment 7: Linear Regression using Deep Neural Network
+Questions
+What is linear regression?
+What is supervised learning?
+What is deep neural network?
+What is Boston Housing dataset?
+What is normalization?
+What is regression problem?
+Difference between regression and classification?
+What is ReLU activation function?
+What is MSE loss?
+What is MAE metric?
+What is optimizer?
+Why RMSprop is used?
+What is hidden layer?
+What is output layer?
+Why output layer has no activation function?
+What is prediction?
+What is training data?
+What is testing data?
+What is epoch in neural network?
+Applications of regression?
+
+Experiment 8: Classification using Deep Neural Network
+Questions
+What is classification?
+Difference between binary and multiclass classification?
+What is DNN?
+What is softmax activation?
+What is sigmoid activation?
+What is confusion matrix?
+What is accuracy?
+What is loss function?
+What is OCR?
+What is IMDB dataset?
+What is preprocessing?
+Why train-test split is required?
+What is one-hot encoding?
+What is validation data?
+What is prediction accuracy?
+What is overfitting?
+What is underfitting?
+What is categorical crossentropy?
+What is binary crossentropy?
+Applications of classification?
+
+Experiment 9: CNN – Plant Disease Detection / Fashion MNIST
+Questions
+What is CNN?
+Why CNN is used for image processing?
+What is convolution layer?
+What is pooling layer?
+What is flatten layer?
+What is dropout?
+What is image classification?
+What is feature extraction?
+What is filter/kernel in CNN?
+What is Fashion MNIST dataset?
+Why normalization is required?
+What is softmax classifier?
+What is activation function?
+Difference between ANN and CNN?
+Applications of CNN?
+What is image preprocessing?
+What is training accuracy?
+What is validation accuracy?
+What is overfitting in CNN?
+Why CNN performs well for images?
+
+Experiment 10: RNN – Google Stock Prediction
+Questions
+What is RNN?
+Why RNN is used for sequential data?
+What is time series analysis?
+What is LSTM?
+What is vanishing gradient problem?
+What is stock prediction?
+What is sequence data?
+Why normalization is required?
+What is MinMaxScaler?
+What is hidden state in RNN?
+Difference between CNN and RNN?
+What is dropout in RNN?
+What is prediction model?
+Why previous data is important in RNN?
+What is epoch?
+What is training and testing data?
+What is sequential model?
+Applications of RNN?
+What is time dependency?
+Advantages of LSTM over normal RNN?
+
+Experiment 11: Colorizing Old B&W Images
+Questions
+What is image colorization?
+What is grayscale image?
+What is RGB color model?
+What is LAB color space?
+Why deep learning is used in colorization?
+What is OpenCV?
+What is pretrained model?
+What is Caffe model?
+What is image preprocessing?
+What is luminance?
+What is chrominance?
+Why resize image before processing?
+What is DNN in OpenCV?
+What is feature extraction?
+Why normalization is required?
+Applications of image colorization?
+Difference between grayscale and color image?
+What is computer vision?
+What is image enhancement?
+Advantages of AI in image processing?
